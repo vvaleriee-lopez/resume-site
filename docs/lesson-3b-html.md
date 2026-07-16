@@ -1,4 +1,7 @@
-# Lesson 3 — HTML basics
+# Lesson 3b — HTML basics
+
+> **Do `docs/lesson-3a-terminal.md` first** if you haven't — you'll need the terminal to pull
+> this lesson down and to open your project.
 
 ## What HTML actually is
 
