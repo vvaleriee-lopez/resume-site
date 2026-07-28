@@ -201,7 +201,7 @@ Near the top of your page, inside the `<head>`, there's a block that looks like 
 
 ```html
 <script>
-  tailwind.config = { theme: { extend: { colors: {
+  tailwind.config = { darkMode: 'class', theme: { extend: {
     ink: '#1B1B1B',
 
     /* ===== PALETTE - EDIT THESE THREE ONLY ===== */

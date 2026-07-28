@@ -1,133 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Valerie Lopez Resume! </title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- ONLY EDIT BELOW THIS LINE -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
-<script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
 
-<script>
-  tailwind.config = { theme: { extend: {
-    colors: {
-      ink: '#1B1B1B',   // Body text. LOCKED - 17:1 contrast on white. Do not change.
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#1B1B1B',   // Body text. LOCKED - 17:1 contrast on white. Do not change.
 
-      /* ============ PALETTE - EDIT THESE THREE ONLY ============ */
-      brand:  '#0C2559',
-      accent: '#2C62CC',
-      pop:    '#FFE019',
-      /* ============ END PALETTE ============ */
-    },
-    fontFamily: { sans: ['Sora', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
-    borderRadius: { card: '2rem 0.25rem' },   // the asymmetric corner - this layout's signature
-    maxWidth: { site: '1550px' },
-  }}}
-</script>
-
-<style>
-  @media (prefers-reduced-motion: reduce) {
-    *, ::before, ::after {
-      animation-duration: .01ms !important;
-      transition-duration: .01ms !important;
-      scroll-behavior: auto !important;
+            /* ============ PALETTE - EDIT THESE THREE ONLY ============ */
+            brand: '#0C2559',
+            accent: '#2C62CC',
+            pop: '#FFE019',
+            /* ============ END PALETTE ============ */
+          },
+          fontFamily: { sans: ['Sora', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+          borderRadius: { card: '2rem 0.25rem' },   // the asymmetric corner - this layout's signature
+          maxWidth: { site: '1550px' },
+        }
+      }
     }
-  }
-</style>
-</head>
+  </script>
 
-<body class="bg-white font-sans text-ink leading-normal">
-  <header>
+  <style>
+    @media (prefers-reduced-motion: reduce) {
 
-    <button id="dark-mode-toggle">🌙 Dark Mode</button>
-    <img src="headshot.jpg" alt="Valerie Lopez" class="mx-auto h-36 w-36 rounded-full border-[6px] border-pop object-cover">
-    <!-- <div class="mx-auto flex h-36 w-36 items-center justify-center rounded-full border-[6px] border-pop bg-accent text-5xl font-bold text-white">YN</div> -->
+      *,
+      ::before,
+      ::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+  </head>
 
-    <h1 class="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">Valerie Lopez</h1>
-    <p class="mt-3 text-lg text-pop">Hello, my name is Valerie Lopez I am 14 years old. This is my first year apart of the Summer Youth Program working for information technology and security here at Carson City hall. I grew up here in Carson California my whole life and so did my family of course. I currently attend Academy of Medical Arts at Carson High School. I do folklorico at a dance studio called Sabor De Mexico and have been dancing folklorico for about 7 years.</p>
-  </header>
+ <body class="bg-white font-sans text-ink leading-normal dark:bg-ink dark:text-white">
+    <header>
 
-
-     <section id="about" class="mb-12">
-    <div class="rounded-card bg-pop p-8 shadow-lg">
-      <h2 class="mb-3 flex items-center gap-2 text-2xl font-bold text-brand">
-        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z"/></svg>
-        About
-      </h2>
-      <p class="text-base leading-relaxed text-ink">
-        I am a freshmen entering carson high school. I plan after highschool to eventually become a ultrasound technician or pediatrician. I hope to learn new skills that I could use in the future and plan to give this program my all. I plan to hopefully go to UCLA one day. Why UCLA specfically? My tia went there and currently graduated and has told me great things about the school and considering she was someone I looked up to my whole life I would love to go there as well.
-      </p>
-    </div>
-  </section>
-
-  
-    <section id="projects" class="mb-12">
-    <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
-      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h6l2 2h10v10H3z"/></svg>
-      Projects
-    </h2>
-    <div class="grid gap-5 sm:grid-cols-2">
-      <article class="rounded-card border-4 border-brand p-6 transition hover:bg-brand hover:text-white">
-        <h3 class="text-lg font-bold">PROJECT BASED LEARNING</h3>
-        <p class="mt-1 text-base">My program in middle school required me to take something called Project Based Learning</p>
-      </article>
-      <article class="rounded-card border-4 border-accent p-6 transition hover:bg-accent hover:text-white">
-        <h3 class="text-lg font-bold">We called it PBL for short I did this for 3 years about 5 times</h3>
-        <p class="mt-1 text-base">PBL helped challenge students to real life problem solving skills for a specfic cause and what could we do to help</p>
-      </article>
-      <section id="projects" class="mb-12">
-    <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
-      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h6l2 2h10v10H3z"/></svg>
-      Projects
-    </h2>
-    <div class="grid gap-5 sm:grid-cols-2">
-      <article class="rounded-card border-4 border-brand p-6 transition hover:bg-brand hover:text-white">
-        <h3 class="text-lg font-bold">MICROBIT</h3>
-        <p class="mt-1 text-base">Going back talking about PBL one year I was challenged to use a microbit for a trashcan. The final result ended up being whenever trash went in to our trash bin it made a noise.</p>
-      </article>
-      <article class="rounded-card border-4 border-accent p-6 transition hover:bg-accent hover:text-white">
-        <h3 class="text-lg font-bold">SCRATCH</h3>
-        <p class="mt-1 text-base">I had used this app called scratch for an 8th grade project and all of elementry. This was basically a fun coding app for more tweens and kids to mess around with and make games.</p>
-      </article>
     
-    </div>
-  </section>
+      <img src="headshot.jpg" alt="Valerie Lopez"
+        class="mx-auto h-36 w-36 rounded-full border-[6px] border-pop object-cover">
+      <!-- <div class="mx-auto flex h-36 w-36 items-center justify-center rounded-full border-[6px] border-pop bg-accent text-5xl font-bold text-white">YN</div> -->
 
- 
-     <section id="skills" class="mb-12">
-    <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
-      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 3 6.9 7.5.8-5.6 5 1.6 7.4L12 18.3 5.5 22.1l1.6-7.4-5.6-5 7.5-.8z"/></svg>
-      Skills
-    </h2>
-    <ul class="flex flex-wrap gap-3">
-      <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">A skill I have is good communication skills with large groups or small groups.</li>
-      <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">I work well with others so I have good teamwork skills and know how to work as a group no matter who I work with.</li>
-      <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">I also have good leadership skills depending on the situation we are dealing with.</li>
-    </ul>
-  </section>
+      <h1 class="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">Valerie Lopez</h1>
+      <p class="mt-3 text-lg text-pop">Hello, my name is Valerie Lopez I am 14 years old. This is my first year apart of
+        the Summer Youth Program working for information technology and security here at Carson City hall. I grew up
+        here in Carson California my whole life and so did my family of course. I currently attend Academy of Medical
+        Arts at Carson High School. I do folklorico at a dance studio called Sabor De Mexico and have been dancing
+        folklorico for about 7 years.</p>
+    </header>
 
-  <section id="contact" class="text-center">
-    <div class="rounded-card bg-brand px-8 py-12 text-white">
-      <h2 class="text-2xl font-bold">valleywithlove@gmail.com</h2>
-      <p class="mt-2 text-base">Need to talk? Reach out using my contact!</p>
-      <a href="#"
-         class="mt-6 inline-block rounded-full bg-pop px-8 py-3 text-base font-bold text-ink no-underline transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pop">
-        Feel free to email me and contact me about anything!
-      </a>
-    </div>
-  </section>
 
-  <footer>
-    <p>&copy; 2026  Valerie Lopez </p>
-  </footer>
+    <section id="about" class="mb-12">
+      <div class="rounded-card bg-pop p-8 shadow-lg">
+        <h2 class="mb-3 flex items-center gap-2 text-2xl font-bold text-brand">
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
+          </svg>
+          About
+        </h2>
+        <p class="text-base leading-relaxed text-ink">
+          I am a freshmen entering carson high school. I plan after highschool to eventually become a ultrasound
+          technician or pediatrician. I hope to learn new skills that I could use in the future and plan to give this
+          program my all. I plan to hopefully go to UCLA one day. Why UCLA specfically? My tia went there and currently
+          graduated and has told me great things about the school and considering she was someone I looked up to my
+          whole life I would love to go there as well.
+        </p>
+      </div>
+    </section>
 
-  <!-- ONLY EDIT ABOVE THIS LINE -->
 
-  <script src="script.js"></script>
-</body>
+    <section id="projects" class="mb-12">
+      <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
+        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 7h6l2 2h10v10H3z" />
+        </svg>
+        Projects
+      </h2>
+      <div class="grid gap-5 sm:grid-cols-2">
+        <article class="rounded-card border-4 border-brand p-6 transition hover:bg-brand hover:text-white">
+          <h3 class="text-lg font-bold">PROJECT BASED LEARNING</h3>
+          <p class="mt-1 text-base">My program in middle school required me to take something called Project Based
+            Learning</p>
+        </article>
+        <article class="rounded-card border-4 border-accent p-6 transition hover:bg-accent hover:text-white">
+          <h3 class="text-lg font-bold">We called it PBL for short I did this for 3 years about 5 times</h3>
+          <p class="mt-1 text-base">PBL helped challenge students to real life problem solving skills for a specfic
+            cause and what could we do to help</p>
+        </article>
+        <section id="projects" class="mb-12">
+          <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 7h6l2 2h10v10H3z" />
+            </svg>
+            Projects
+          </h2>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <article class="rounded-card border-4 border-brand p-6 transition hover:bg-brand hover:text-white">
+              <h3 class="text-lg font-bold">MICROBIT</h3>
+              <p class="mt-1 text-base">Going back talking about PBL one year I was challenged to use a microbit for a
+                trashcan. The final result ended up being whenever trash went in to our trash bin it made a noise.</p>
+            </article>
+            <article class="rounded-card border-4 border-accent p-6 transition hover:bg-accent hover:text-white">
+              <h3 class="text-lg font-bold">SCRATCH</h3>
+              <p class="mt-1 text-base">I had used this app called scratch for an 8th grade project and all of
+                elementary. This was basically a fun coding app for more tweens and kids to mess around with and make
+                games.</p>
+            </article>
+
+          </div>
+        </section>
+
+
+        <section id="skills" class="mb-12">
+          <h2 class="mb-5 flex items-center gap-2 text-2xl font-bold text-brand">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m12 2 3 6.9 7.5.8-5.6 5 1.6 7.4L12 18.3 5.5 22.1l1.6-7.4-5.6-5 7.5-.8z" />
+            </svg>
+            Skills
+          </h2>
+          <ul class="flex flex-wrap gap-3">
+            <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">A skill I have is good
+              communication skills with large groups or small groups.</li>
+            <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">I work well with others so I have
+              good teamwork skills and know how to work as a group no matter who I work with.</li>
+            <li class="rounded-full bg-accent px-4 py-2 text-sm font-bold text-white">I also have good leadership skills
+              depending on the situation we are dealing with.</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="text-center">
+          <div class="rounded-card bg-brand px-8 py-12 text-white">
+            <h2 class="text-2xl font-bold">valleywithlove@gmail.com</h2>
+            <p class="mt-2 text-base">Need to talk? Reach out using my contact!</p>
+            <a href="https://github.com/vvaleriee-lopez"
+              class="mt-6 inline-block rounded-full bg-pop px-8 py-3 text-base font-bold text-ink no-underline transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pop">
+              Feel free to email me and contact me about anything!
+            </a>
+          </div>
+        </section>
+
+        <footer>
+          <p>&copy; 2026 Valerie Lopez </p>
+        <button id="dark-mode-toggle"
+        class="mx-auto mb-8 block rounded border-2 border-brand px-4 py-2 text-sm dark:border-pop dark:text-pop">
+  Dark Mode
+</button>
+        </footer>
+<script src="script.js"></script>
+        <!-- ONLY EDIT ABOVE THIS LINE -->
+
+       
+  </body>
+
 </html>
