@@ -46,3 +46,8 @@ What I learned in this lesson was about "repo" push means to share something, pu
 ## Lesson 9 — Putting my site online
 <!-- TODO -->
 
+### Homepage entry
+
+- **Name:** Valerie Lopez
+- **One line:** I plan to be an ultrasound technician.
+- **Link:** template/index.html
