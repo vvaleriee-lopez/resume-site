@@ -29,13 +29,13 @@ What I learned in this lesson was about "repo" push means to share something, pu
 <!-- TODO --> Today for lesson 3, I learned the HTML version of coding. I learned to use the tab to go to my project folder. In lesson 3b I ended up using a template to make my own resume. I realized that even the smallest error could totally mess up what you are working on. 
 
 ## Lesson 4 — CSS
-<!-- TODO -->
+If I summarize all of lesson 4 I would have to say. Lesson 4A- The difference between padding and margin is that padding is the space inside of a box. Margin is the space bubble outside for other stuff to keep away from it.
 
 ## Lesson 5 — JavaScript
-<!-- TODO -->
+I expected Javascript to be about coding and it really is. It honestly is complicated to me with all honesty. I find it complicated working with Javascript because it's something I'm not famillar with.
 
 ## Lesson 6 — Building my resume
-<!-- TODO -->
+
 
 ## Lesson 7 — My second page
 <!-- TODO -->
