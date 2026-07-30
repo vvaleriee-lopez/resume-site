@@ -46,8 +46,19 @@ I expected Javascript to be about coding and it really is. It honestly is compli
 ## Lesson 9 — Putting my site online
 <!-- TODO -->
 
+<<<<<<< HEAD
 ### Homepage entry
 
 - **Name:** Valerie Lopez
 - **One line:** I plan to be an ultrasound technician.
 - **Link:** template/index.html
+=======
+## Lesson 10 — Adding motion
+<!-- TODO -->
+
+## Lesson 11 — My first interactive feature
+<!-- TODO -->
+
+## Lesson 12 — Pulling live data
+<!-- TODO -->
+>>>>>>> 8fd594250840c9cfcee7cd769af48db72dfd2465
