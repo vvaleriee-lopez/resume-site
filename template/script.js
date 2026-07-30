@@ -30,3 +30,25 @@ toggleButton.addEventListener('click', function () {
 // ==========================================
 // ONLY ADD YOUR OWN CODE BELOW THIS LINE
 // ==========================================
+// LIGHTBOX ------------------------------------------------
+
+// 1. Find the popup and every image marked "zoomable".
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const zoomables = document.querySelectorAll('.zoomable');
+
+// 2. For each zoomable image, listen for a click.
+zoomables.forEach(function (image) {
+  image.style.cursor = 'zoom-in';                // hint that it's clickable
+  image.addEventListener('click', function () {
+    lightboxImg.src = image.src;                 // copy the clicked image into the popup
+    lightbox.classList.remove('hidden');         // show the popup...
+    lightbox.classList.add('flex');              // ...and center its contents
+  });
+});
+
+// 3. Click anywhere on the dark background to close it.
+lightbox.addEventListener('click', function () {
+  lightbox.classList.add('hidden');
+  lightbox.classList.remove('flex');
+});
