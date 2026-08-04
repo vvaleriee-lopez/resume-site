@@ -68,5 +68,13 @@ document.getElementById('dog-btn').addEventListener('click', function () {
       const dogImg = document.getElementById('dog-img');
       dogImg.src = data.message;          // the photo's web address
       dogImg.classList.remove('hidden');  // reveal it
+       .then(function (data) {
+      const dogImg = document.getElementById('dog-img');
+      dogImg.src = data.message;
+      dogImg.classList.remove('hidden');
+    })
+    .catch(function () {
+      alert('Could not reach the dog service — check your internet and try again.');
+    });
     });
 });
