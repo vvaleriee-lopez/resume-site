@@ -52,7 +52,6 @@ lightbox.addEventListener('click', function () {
   lightbox.classList.add('hidden');
   lightbox.classList.remove('flex');
 });
-
 // RANDOM DOG ----------------------------------------------
 
 document.getElementById('dog-btn').addEventListener('click', function () {
@@ -68,27 +67,5 @@ document.getElementById('dog-btn').addEventListener('click', function () {
       const dogImg = document.getElementById('dog-img');
       dogImg.src = data.message;          // the photo's web address
       dogImg.classList.remove('hidden');  // reveal it
-       .then(function (data) {
-      const dogImg = document.getElementById('dog-img');
-      dogImg.src = data.message;
-      dogImg.classList.remove('hidden');
-    })
-    .catch(function () {
-      alert('Could not reach the dog service — check your internet and try again.');
     });
-   // REMEMBER THE VISITOR ------------------------------------
-
-const greeting = document.getElementById('greeting');
-
-// 1. When the page loads, check the notebook for a saved name.
-const savedName = localStorage.getItem('visitorName');
-if (savedName) {
-  greeting.textContent = 'Welcome back, ' + savedName + '! 👋';
-}
-
-// 2. When they click Save, write their name into the notebook.
-document.getElementById('name-save').addEventListener('click', function () {
-  const name = document.getElementById('name-input').value;
-  localStorage.setItem('visitorName', name);          // save it
-  greeting.textContent = 'Welcome back, ' + name + '! 👋';
 });
